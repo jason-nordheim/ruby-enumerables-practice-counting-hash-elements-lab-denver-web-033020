@@ -3,7 +3,7 @@ def count_elements(array)
   my_hash = {}
   uniq_array = array.uniq
   uniq_array.each do |item|
-      my_hash[item] += 1
+    my_hash[item] += 1
   end
   my_hash
 end
